@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>4月11日練習</title>
+        <meta name="description" content="練習中">
+        <link rel="style sheet" href="">
+    </head>
+    <body>
+    <header>
+        ヘッダ
+    </header>
+    <div>
+        <aside>
+            サイドバー
+        </aside>
+    </div>
+    <article>
+        <p>
+            <br>
+            1段落目
+        </p>
+        <p>
+            <br>
+            <br>
+            2段落目
+        </p>
+        <p>
+            <a href="http://ookatakeshi.com"><img src="http://static.techacademy.jp/magazine/wp-content/themes/ta-magazine/images/logo-magazine.png" alt="画像の説明">
+            </a>
+        </p>
+        <p>
+            <ol>
+                <li>た</li>
+                <li>け</li>
+                <li>し</li>
+            </ol>
+        </p>
+        <p>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>番号</th>
+                        <th>名前</th>
+                         <th>生年月日</th>
+                        <th>性別</th>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td>大岡健</td>
+                        <td>19810115</td>
+                        <td>男</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>大岡律</td>
+                        <td>19800612</td>
+                        <td>女</td>
+                    </tr>
+                </tbody>
+            </table>
+        </p>
+        <p>
+            <form>
+                <label for="name">氏名</label>
+                <input type="text" id="name">
+                <br>
+                <label for="password">パスワード</label>
+                <input type="password" id="password">
+                <br>
+                <label for=""confirm">確認用</label>
+                <input type="password" id="confirm">
+                <br>
+                <label for="email">メアド</label>
+                <input type="email" id="email">
+                <br>
+        </p>
+        <p>
+        <section>
+            <h1>尾本慶三</h1>
+                <h2>大岡佳子</h2>
+                    <p>気が強く傍若無人</p>
+            <h1>尾本百合子</h1>
+                <p>おしゃべり好き</p>
+        </section>
+        <section>
+            <h1>大岡</h1>
+                <h2>大岡正博</h2>
+                    <div>
+                        <h3>大岡健</h3>
+                            <p>俺や</p>
+                    </div>
+        </section>
+        </p>
+        
+        <p>
+                <h1>HTML/CSS</h1>
+
+    <section>
+        <h2>はじめに</h2>
+        <p>まずはじめはWebサイト制作の基本である「HTML/CSS」です。このレッスンではHTMLの基本を始めとして、実際の現場で良く使うテクニックを中心に解説しますので、すでにHTMLによるコーディングを習得済みの方も一度ご覧ください。</p>
+        <p>中略</p>
+    </section>
+
+    <section>
+        <h2>Webサイトの仕組み</h2>
+
+        <div>
+            <h3>Webページとは</h3>
+                <p>私たちが普段みているWebページは、それぞれ一つのHTMLファイルからできています。そのHTMLファイルの集合体がWebサイトです。</p>
+                <p>中略</p>
+        </div>
+    </section>
+
+        </p>
+    </article>
+    <footer>
+    フッター
+    </footer>
+            
+        
+    </body>
+        <!--みえません-->
+</html>

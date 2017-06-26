@@ -1,0 +1,81 @@
+p{color:red;}
+h1{margin:40px;}
+p {
+    color: red;
+}
+
+h1 {
+    margin: 40px;
+}
+
+p{
+    color:#ff0000;
+    font-size:24px;
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+/*
+コメント
+コメント〜
+*/
+
+p.important{
+    color:red;
+}
+
+
+.important{
+    color:red;
+}
+
+p#important{
+    color:red;
+}
+
+
+div article p{
+    color:red;
+}
+
+a:link{
+    color:#0000ff;
+}
+
+a:hover{
+    color:#ff0000;
+}
+
+a:visited{
+    color:#999999;
+}
+
+
+.a{
+    color:red;
+}
+
+.b{
+    color:#f00;
+}
+
+h1{
+    background-color:pink;
+}
+
+div{
+    display:inline;
+}
+
+.box{
+    margin-top:500px;
+    border-left:20px solid pink;
+    padding:100px 200px 300px 40px;
+    background-color: skyblue;
+    width: 100px;
+    height:800px;
+}
+

@@ -1,0 +1,34 @@
+HTML  CSS   Result
+Edit on 
+* {
+  font-size: 20px;
+  line-height:2em;
+}
+header {
+  background-color: #ffdddd;
+}
+div#contents {
+  background-color: #ddffdd;
+  padding: 0 10px;
+}
+footer {
+  background-color: #ddddff;
+}
+aside {
+  background-color: #ffddff;
+  width: 50%;
+  float: left;
+}
+article {
+  width: 50%;
+  float: left;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+article{
+  background-image: url(../images_kitchen/banner01.jpg);
+}

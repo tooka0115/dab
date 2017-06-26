@@ -1,0 +1,520 @@
+[01-May-2017 11:56:09 UTC] PHP Parse error:  syntax error, unexpected '"test"' (T_CONSTANT_ENCAPSED_STRING) in php shell code on line 1
+[01-May-2017 11:58:24 UTC] PHP Parse error:  syntax error, unexpected print (T_PRINT) in php shell code on line 2
+[15-May-2017 11:32:19 UTC] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE) in /home/ubuntu/workspace/message-board/app/Http/Controllers/MessagesController.php on line 106
+[15-May-2017 11:32:19 UTC] PHP Stack trace:
+[15-May-2017 11:32:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/message-board/artisan:0
+[15-May-2017 11:32:19 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/message-board/artisan:36
+[15-May-2017 11:32:19 UTC] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[15-May-2017 11:32:19 UTC] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/message-board/vendor/symfony/console/Application.php:123
+[15-May-2017 11:32:19 UTC] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/message-board/vendor/symfony/console/Application.php:199
+[15-May-2017 11:32:19 UTC] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/message-board/vendor/symfony/console/Application.php:852
+[15-May-2017 11:32:19 UTC] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[15-May-2017 11:32:19 UTC] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/message-board/vendor/symfony/console/Command/Command.php:263
+[15-May-2017 11:32:19 UTC] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[15-May-2017 11:32:19 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[15-May-2017 11:32:19 UTC] PHP  11. Illuminate\Foundation\Console\RouteListCommand->fire() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[15-May-2017 11:32:19 UTC] PHP  12. Illuminate\Foundation\Console\RouteListCommand->getRoutes() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php:76
+[15-May-2017 11:32:19 UTC] PHP  13. Illuminate\Foundation\Console\RouteListCommand->getRouteInformation() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php:89
+[15-May-2017 11:32:19 UTC] PHP  14. Illuminate\Foundation\Console\RouteListCommand->getMiddleware() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php:119
+[15-May-2017 11:32:19 UTC] PHP  15. Illuminate\Foundation\Console\RouteListCommand->getControllerMiddleware() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php:151
+[15-May-2017 11:32:19 UTC] PHP  16. Illuminate\Foundation\Application->make() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Foundation/Console/RouteListCommand.php:170
+[15-May-2017 11:32:19 UTC] PHP  17. Illuminate\Container\Container->make() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:674
+[15-May-2017 11:32:19 UTC] PHP  18. Illuminate\Container\Container->build() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Container/Container.php:631
+[15-May-2017 11:32:19 UTC] PHP  19. ReflectionClass->__construct() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Container/Container.php:741
+[15-May-2017 11:32:19 UTC] PHP  20. spl_autoload_call() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Container/Container.php:741
+[15-May-2017 11:32:19 UTC] PHP  21. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/message-board/vendor/laravel/framework/src/Illuminate/Container/Container.php:741
+[15-May-2017 11:32:19 UTC] PHP  22. Composer\Autoload\includeFile() /home/ubuntu/workspace/message-board/vendor/composer/ClassLoader.php:322
+[20-May-2017 13:10:07 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tasklist/app/Http/routes.php on line 16
+[20-May-2017 13:10:07 Asia/Tokyo] PHP Stack trace:
+[20-May-2017 13:10:07 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[20-May-2017 13:10:07 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[20-May-2017 13:10:07 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[20-May-2017 13:10:07 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[20-May-2017 13:10:07 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[20-May-2017 13:10:07 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->boot() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+[20-May-2017 13:10:07 Asia/Tokyo] PHP   7. array_walk() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[20-May-2017 13:10:07 Asia/Tokyo] PHP   8. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[20-May-2017 13:10:07 Asia/Tokyo] PHP   9. Illuminate\Foundation\Application->bootProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:717
+[20-May-2017 13:10:07 Asia/Tokyo] PHP  10. Illuminate\Container\Container->call() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:734
+[20-May-2017 13:10:07 Asia/Tokyo] PHP  11. call_user_func_array:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:10:07 Asia/Tokyo] PHP  12. App\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:10:07 Asia/Tokyo] PHP  13. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/tasklist/app/Providers/RouteServiceProvider.php:29
+[20-May-2017 13:10:07 Asia/Tokyo] PHP  14. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:31
+[20-May-2017 13:10:07 Asia/Tokyo] PHP  15. Illuminate\Container\Container->call() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:72
+[20-May-2017 13:10:07 Asia/Tokyo] PHP  16. call_user_func_array:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:10:07 Asia/Tokyo] PHP  17. App\Providers\RouteServiceProvider->map() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:10:07 Asia/Tokyo] PHP  18. Illuminate\Routing\Router->group() /home/ubuntu/workspace/tasklist/app/Providers/RouteServiceProvider.php:42
+[20-May-2017 13:10:07 Asia/Tokyo] PHP  19. call_user_func:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[20-May-2017 13:10:07 Asia/Tokyo] PHP  20. App\Providers\RouteServiceProvider->App\Providers\{closure}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[20-May-2017 13:11:31 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tasklist/app/Http/routes.php on line 16
+[20-May-2017 13:11:31 Asia/Tokyo] PHP Stack trace:
+[20-May-2017 13:11:31 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[20-May-2017 13:11:31 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[20-May-2017 13:11:31 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[20-May-2017 13:11:31 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[20-May-2017 13:11:31 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[20-May-2017 13:11:31 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->boot() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+[20-May-2017 13:11:31 Asia/Tokyo] PHP   7. array_walk() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[20-May-2017 13:11:31 Asia/Tokyo] PHP   8. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[20-May-2017 13:11:31 Asia/Tokyo] PHP   9. Illuminate\Foundation\Application->bootProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:717
+[20-May-2017 13:11:31 Asia/Tokyo] PHP  10. Illuminate\Container\Container->call() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:734
+[20-May-2017 13:11:31 Asia/Tokyo] PHP  11. call_user_func_array:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:11:31 Asia/Tokyo] PHP  12. App\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:11:31 Asia/Tokyo] PHP  13. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/tasklist/app/Providers/RouteServiceProvider.php:29
+[20-May-2017 13:11:31 Asia/Tokyo] PHP  14. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:31
+[20-May-2017 13:11:31 Asia/Tokyo] PHP  15. Illuminate\Container\Container->call() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:72
+[20-May-2017 13:11:31 Asia/Tokyo] PHP  16. call_user_func_array:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:11:31 Asia/Tokyo] PHP  17. App\Providers\RouteServiceProvider->map() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:11:31 Asia/Tokyo] PHP  18. Illuminate\Routing\Router->group() /home/ubuntu/workspace/tasklist/app/Providers/RouteServiceProvider.php:42
+[20-May-2017 13:11:31 Asia/Tokyo] PHP  19. call_user_func:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[20-May-2017 13:11:31 Asia/Tokyo] PHP  20. App\Providers\RouteServiceProvider->App\Providers\{closure}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[20-May-2017 13:12:20 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tasklist/app/Http/routes.php on line 16
+[20-May-2017 13:12:20 Asia/Tokyo] PHP Stack trace:
+[20-May-2017 13:12:20 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[20-May-2017 13:12:20 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[20-May-2017 13:12:20 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[20-May-2017 13:12:20 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[20-May-2017 13:12:20 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[20-May-2017 13:12:20 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->boot() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+[20-May-2017 13:12:20 Asia/Tokyo] PHP   7. array_walk() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[20-May-2017 13:12:20 Asia/Tokyo] PHP   8. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[20-May-2017 13:12:20 Asia/Tokyo] PHP   9. Illuminate\Foundation\Application->bootProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:717
+[20-May-2017 13:12:20 Asia/Tokyo] PHP  10. Illuminate\Container\Container->call() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:734
+[20-May-2017 13:12:20 Asia/Tokyo] PHP  11. call_user_func_array:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:12:20 Asia/Tokyo] PHP  12. App\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:12:20 Asia/Tokyo] PHP  13. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/tasklist/app/Providers/RouteServiceProvider.php:29
+[20-May-2017 13:12:20 Asia/Tokyo] PHP  14. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:31
+[20-May-2017 13:12:20 Asia/Tokyo] PHP  15. Illuminate\Container\Container->call() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:72
+[20-May-2017 13:12:20 Asia/Tokyo] PHP  16. call_user_func_array:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:12:20 Asia/Tokyo] PHP  17. App\Providers\RouteServiceProvider->map() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:12:20 Asia/Tokyo] PHP  18. Illuminate\Routing\Router->group() /home/ubuntu/workspace/tasklist/app/Providers/RouteServiceProvider.php:42
+[20-May-2017 13:12:20 Asia/Tokyo] PHP  19. call_user_func:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[20-May-2017 13:12:20 Asia/Tokyo] PHP  20. App\Providers\RouteServiceProvider->App\Providers\{closure}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[20-May-2017 13:12:32 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/tasklist/app/Http/routes.php on line 16
+[20-May-2017 13:12:32 Asia/Tokyo] PHP Stack trace:
+[20-May-2017 13:12:32 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[20-May-2017 13:12:32 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[20-May-2017 13:12:32 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[20-May-2017 13:12:32 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[20-May-2017 13:12:32 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[20-May-2017 13:12:32 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->boot() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+[20-May-2017 13:12:32 Asia/Tokyo] PHP   7. array_walk() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[20-May-2017 13:12:32 Asia/Tokyo] PHP   8. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[20-May-2017 13:12:32 Asia/Tokyo] PHP   9. Illuminate\Foundation\Application->bootProvider() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:717
+[20-May-2017 13:12:32 Asia/Tokyo] PHP  10. Illuminate\Container\Container->call() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:734
+[20-May-2017 13:12:32 Asia/Tokyo] PHP  11. call_user_func_array:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:12:32 Asia/Tokyo] PHP  12. App\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:12:32 Asia/Tokyo] PHP  13. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/tasklist/app/Providers/RouteServiceProvider.php:29
+[20-May-2017 13:12:32 Asia/Tokyo] PHP  14. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:31
+[20-May-2017 13:12:32 Asia/Tokyo] PHP  15. Illuminate\Container\Container->call() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:72
+[20-May-2017 13:12:32 Asia/Tokyo] PHP  16. call_user_func_array:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:12:32 Asia/Tokyo] PHP  17. App\Providers\RouteServiceProvider->map() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[20-May-2017 13:12:32 Asia/Tokyo] PHP  18. Illuminate\Routing\Router->group() /home/ubuntu/workspace/tasklist/app/Providers/RouteServiceProvider.php:42
+[20-May-2017 13:12:32 Asia/Tokyo] PHP  19. call_user_func:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[20-May-2017 13:12:32 Asia/Tokyo] PHP  20. App\Providers\RouteServiceProvider->App\Providers\{closure}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[22-May-2017 00:39:32 Asia/Tokyo] PHP Fatal error:  Call to undefined method Illuminate\Database\Schema\Blueprint::varchar() in /home/ubuntu/workspace/tasklist/database/migrations/2017_05_22_003459_add_status_to_tasks_table.php on line 16
+[22-May-2017 00:39:32 Asia/Tokyo] PHP Stack trace:
+[22-May-2017 00:39:32 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[22-May-2017 00:39:32 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[22-May-2017 00:39:32 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[22-May-2017 00:39:32 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Application.php:123
+[22-May-2017 00:39:32 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Application.php:199
+[22-May-2017 00:39:32 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Application.php:852
+[22-May-2017 00:39:32 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[22-May-2017 00:39:32 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Command/Command.php:263
+[22-May-2017 00:39:32 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[22-May-2017 00:39:32 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[22-May-2017 00:39:32 Asia/Tokyo] PHP  11. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[22-May-2017 00:39:32 Asia/Tokyo] PHP  12. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:74
+[22-May-2017 00:39:32 Asia/Tokyo] PHP  13. Illuminate\Database\Migrations\Migrator->runMigrationList() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:85
+[22-May-2017 00:39:32 Asia/Tokyo] PHP  14. Illuminate\Database\Migrations\Migrator->runUp() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:112
+[22-May-2017 00:39:32 Asia/Tokyo] PHP  15. AddStatusToTasksTable->up() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:135
+[22-May-2017 00:39:32 Asia/Tokyo] PHP  16. Illuminate\Support\Facades\Schema::table() /home/ubuntu/workspace/tasklist/database/migrations/2017_05_22_003459_add_status_to_tasks_table.php:17
+[22-May-2017 00:39:32 Asia/Tokyo] PHP  17. Illuminate\Support\Facades\Facade::__callStatic() /home/ubuntu/workspace/tasklist/database/migrations/2017_05_22_003459_add_status_to_tasks_table.php:17
+[22-May-2017 00:39:32 Asia/Tokyo] PHP  18. Illuminate\Database\Schema\Builder->table() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:217
+[22-May-2017 00:39:32 Asia/Tokyo] PHP  19. Illuminate\Database\Schema\Builder->createBlueprint() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:116
+[22-May-2017 00:39:32 Asia/Tokyo] PHP  20. Illuminate\Database\Schema\Blueprint->__construct() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:207
+[22-May-2017 00:39:32 Asia/Tokyo] PHP  21. AddStatusToTasksTable->{closure:/home/ubuntu/workspace/tasklist/database/migrations/2017_05_22_003459_add_status_to_tasks_table.php:15-17}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php:69
+[22-May-2017 00:43:50 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '(' in /home/ubuntu/workspace/tasklist/database/migrations/2017_05_22_003459_add_status_to_tasks_table.php on line 16
+[22-May-2017 00:43:50 Asia/Tokyo] PHP Stack trace:
+[22-May-2017 00:43:50 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[22-May-2017 00:43:50 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[22-May-2017 00:43:50 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[22-May-2017 00:43:50 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Application.php:123
+[22-May-2017 00:43:50 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Application.php:199
+[22-May-2017 00:43:50 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Application.php:852
+[22-May-2017 00:43:50 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[22-May-2017 00:43:50 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Command/Command.php:263
+[22-May-2017 00:43:50 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[22-May-2017 00:43:50 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[22-May-2017 00:43:50 Asia/Tokyo] PHP  11. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[22-May-2017 00:43:50 Asia/Tokyo] PHP  12. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:74
+[22-May-2017 00:43:50 Asia/Tokyo] PHP  13. Illuminate\Database\Migrations\Migrator->requireFiles() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:83
+[22-May-2017 00:43:50 Asia/Tokyo] PHP  14. Illuminate\Filesystem\Filesystem->requireOnce() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:270
+[22-May-2017 00:44:19 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '(' in /home/ubuntu/workspace/tasklist/database/migrations/2017_05_22_003459_add_status_to_tasks_table.php on line 16
+[22-May-2017 00:44:19 Asia/Tokyo] PHP Stack trace:
+[22-May-2017 00:44:19 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[22-May-2017 00:44:19 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[22-May-2017 00:44:19 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[22-May-2017 00:44:19 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Application.php:123
+[22-May-2017 00:44:19 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Application.php:199
+[22-May-2017 00:44:19 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Application.php:852
+[22-May-2017 00:44:19 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[22-May-2017 00:44:19 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Command/Command.php:263
+[22-May-2017 00:44:19 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[22-May-2017 00:44:19 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[22-May-2017 00:44:19 Asia/Tokyo] PHP  11. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[22-May-2017 00:44:19 Asia/Tokyo] PHP  12. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:74
+[22-May-2017 00:44:19 Asia/Tokyo] PHP  13. Illuminate\Database\Migrations\Migrator->requireFiles() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:83
+[22-May-2017 00:44:19 Asia/Tokyo] PHP  14. Illuminate\Filesystem\Filesystem->requireOnce() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:270
+[22-May-2017 00:44:38 Asia/Tokyo] PHP Fatal error:  Call to undefined method Illuminate\Database\Schema\Blueprint::varchar() in /home/ubuntu/workspace/tasklist/database/migrations/2017_05_22_003459_add_status_to_tasks_table.php on line 16
+[22-May-2017 00:44:38 Asia/Tokyo] PHP Stack trace:
+[22-May-2017 00:44:38 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/tasklist/artisan:0
+[22-May-2017 00:44:38 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/tasklist/artisan:36
+[22-May-2017 00:44:38 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[22-May-2017 00:44:38 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Application.php:123
+[22-May-2017 00:44:38 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Application.php:199
+[22-May-2017 00:44:38 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Application.php:852
+[22-May-2017 00:44:38 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[22-May-2017 00:44:38 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/tasklist/vendor/symfony/console/Command/Command.php:263
+[22-May-2017 00:44:38 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[22-May-2017 00:44:38 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[22-May-2017 00:44:38 Asia/Tokyo] PHP  11. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[22-May-2017 00:44:38 Asia/Tokyo] PHP  12. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:74
+[22-May-2017 00:44:38 Asia/Tokyo] PHP  13. Illuminate\Database\Migrations\Migrator->runMigrationList() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:85
+[22-May-2017 00:44:38 Asia/Tokyo] PHP  14. Illuminate\Database\Migrations\Migrator->runUp() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:112
+[22-May-2017 00:44:38 Asia/Tokyo] PHP  15. AddStatusToTasksTable->up() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:135
+[22-May-2017 00:44:38 Asia/Tokyo] PHP  16. Illuminate\Support\Facades\Schema::table() /home/ubuntu/workspace/tasklist/database/migrations/2017_05_22_003459_add_status_to_tasks_table.php:17
+[22-May-2017 00:44:38 Asia/Tokyo] PHP  17. Illuminate\Support\Facades\Facade::__callStatic() /home/ubuntu/workspace/tasklist/database/migrations/2017_05_22_003459_add_status_to_tasks_table.php:17
+[22-May-2017 00:44:38 Asia/Tokyo] PHP  18. Illuminate\Database\Schema\Builder->table() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:217
+[22-May-2017 00:44:38 Asia/Tokyo] PHP  19. Illuminate\Database\Schema\Builder->createBlueprint() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:116
+[22-May-2017 00:44:38 Asia/Tokyo] PHP  20. Illuminate\Database\Schema\Blueprint->__construct() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Schema/Builder.php:207
+[22-May-2017 00:44:38 Asia/Tokyo] PHP  21. AddStatusToTasksTable->{closure:/home/ubuntu/workspace/tasklist/database/migrations/2017_05_22_003459_add_status_to_tasks_table.php:15-17}() /home/ubuntu/workspace/tasklist/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php:69
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/microposts/app/Http/routes.php on line 23
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP Stack trace:
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->boot() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP   7. array_walk() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP   8. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP   9. Illuminate\Foundation\Application->bootProvider() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:717
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP  10. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:734
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP  11. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP  12. App\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP  13. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/microposts/app/Providers/RouteServiceProvider.php:29
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP  14. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:31
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP  15. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:72
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP  16. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP  17. App\Providers\RouteServiceProvider->map() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP  18. Illuminate\Routing\Router->group() /home/ubuntu/workspace/microposts/app/Providers/RouteServiceProvider.php:42
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP  19. call_user_func:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[05-Jun-2017 20:58:34 Asia/Tokyo] PHP  20. App\Providers\RouteServiceProvider->App\Providers\{closure}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[05-Jun-2017 12:02:22 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/microposts/config/app.php on line 150
+[05-Jun-2017 12:02:22 UTC] PHP Stack trace:
+[05-Jun-2017 12:02:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[05-Jun-2017 12:02:22 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[05-Jun-2017 12:02:22 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[05-Jun-2017 12:02:22 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[05-Jun-2017 12:02:22 UTC] PHP   5. Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[05-Jun-2017 12:02:22 UTC] PHP   6. Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php:38
+[05-Jun-2017 12:21:51 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/microposts/config/app.php on line 150
+[05-Jun-2017 12:21:51 UTC] PHP Stack trace:
+[05-Jun-2017 12:21:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[05-Jun-2017 12:21:51 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[05-Jun-2017 12:21:51 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[05-Jun-2017 12:21:51 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[05-Jun-2017 12:21:51 UTC] PHP   5. Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[05-Jun-2017 12:21:51 UTC] PHP   6. Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php:38
+[05-Jun-2017 12:26:15 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/microposts/config/app.php on line 150
+[05-Jun-2017 12:26:15 UTC] PHP Stack trace:
+[05-Jun-2017 12:26:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[05-Jun-2017 12:26:15 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[05-Jun-2017 12:26:15 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[05-Jun-2017 12:26:15 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[05-Jun-2017 12:26:15 UTC] PHP   5. Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[05-Jun-2017 12:26:15 UTC] PHP   6. Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php:38
+[05-Jun-2017 12:26:42 UTC] PHP Parse error:  syntax error, unexpected ''aliases'' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/microposts/config/app.php on line 163
+[05-Jun-2017 12:26:42 UTC] PHP Stack trace:
+[05-Jun-2017 12:26:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[05-Jun-2017 12:26:42 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[05-Jun-2017 12:26:42 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[05-Jun-2017 12:26:42 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[05-Jun-2017 12:26:42 UTC] PHP   5. Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[05-Jun-2017 12:26:42 UTC] PHP   6. Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php:38
+[05-Jun-2017 12:29:12 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/ubuntu/workspace/microposts/config/app.php on line 150
+[05-Jun-2017 12:29:12 UTC] PHP Stack trace:
+[05-Jun-2017 12:29:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[05-Jun-2017 12:29:12 UTC] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[05-Jun-2017 12:29:12 UTC] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[05-Jun-2017 12:29:12 UTC] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[05-Jun-2017 12:29:12 UTC] PHP   5. Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[05-Jun-2017 12:29:12 UTC] PHP   6. Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php:38
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '=', expecting '{' in /home/ubuntu/workspace/microposts/database/migrations/2017_06_12_183043_create_microposts_table--create=microposts.php on line 6
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP Stack trace:
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:200
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:853
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/microposts/vendor/symfony/console/Command/Command.php:263
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP  11. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP  12. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:74
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP  13. Illuminate\Database\Migrations\Migrator->requireFiles() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:83
+[12-Jun-2017 18:45:52 Asia/Tokyo] PHP  14. Illuminate\Filesystem\Filesystem->requireOnce() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:270
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '=', expecting '{' in /home/ubuntu/workspace/microposts/database/migrations/2017_06_12_183043_create_microposts_table--create=microposts.php on line 6
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP Stack trace:
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:200
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:853
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/microposts/vendor/symfony/console/Command/Command.php:263
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP  11. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP  12. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:74
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP  13. Illuminate\Database\Migrations\Migrator->requireFiles() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:83
+[12-Jun-2017 18:47:24 Asia/Tokyo] PHP  14. Illuminate\Filesystem\Filesystem->requireOnce() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:270
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '=', expecting '{' in /home/ubuntu/workspace/microposts/database/migrations/2017_06_12_183043_create_microposts_table--create=microposts.php on line 6
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP Stack trace:
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:200
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:853
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/microposts/vendor/symfony/console/Command/Command.php:263
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP  11. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP  12. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:74
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP  13. Illuminate\Database\Migrations\Migrator->requireFiles() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:83
+[12-Jun-2017 18:47:46 Asia/Tokyo] PHP  14. Illuminate\Filesystem\Filesystem->requireOnce() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:270
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '=', expecting '{' in /home/ubuntu/workspace/microposts/database/migrations/2017_06_12_183043_create_microposts_table--create=microposts.php on line 6
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP Stack trace:
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:200
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:853
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/microposts/vendor/symfony/console/Command/Command.php:263
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP  11. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP  12. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:74
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP  13. Illuminate\Database\Migrations\Migrator->requireFiles() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:83
+[12-Jun-2017 18:48:02 Asia/Tokyo] PHP  14. Illuminate\Filesystem\Filesystem->requireOnce() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:270
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '=', expecting '{' in /home/ubuntu/workspace/microposts/database/migrations/2017_06_12_183043_create_microposts_table--create=microposts.php on line 6
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP Stack trace:
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:200
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:853
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/microposts/vendor/symfony/console/Command/Command.php:263
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP  11. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP  12. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:74
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP  13. Illuminate\Database\Migrations\Migrator->requireFiles() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:83
+[12-Jun-2017 18:48:53 Asia/Tokyo] PHP  14. Illuminate\Filesystem\Filesystem->requireOnce() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:270
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '-', expecting ',' or ';' in /home/ubuntu/workspace/microposts/app/Micropost.php on line 9
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP Stack trace:
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:200
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:853
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/microposts/vendor/symfony/console/Command/Command.php:263
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  11. Illuminate\Foundation\Console\TinkerCommand->fire() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  12. Psy\Shell->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/TinkerCommand.php:54
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  13. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/Shell.php:273
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  14. Psy\Shell->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  15. Psy\ExecutionLoop\ForkingLoop->run() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/Shell.php:307
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  16. Psy\ExecutionLoop\Loop->run() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/ForkingLoop.php:79
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  17. Psy\ExecutionLoop\{closure}() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/Loop.php:135
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  18. eval() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/Loop.php:79
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  19. App\User->microposts() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/Loop.php(79) : eval()'d code:1
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  20. Illuminate\Database\Eloquent\Model->hasMany() /home/ubuntu/workspace/microposts/app/User.php:42
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  21. spl_autoload_call() /home/ubuntu/workspace/microposts/app/User.php:844
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  22. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/microposts/app/User.php:844
+[12-Jun-2017 19:06:18 Asia/Tokyo] PHP  23. Composer\Autoload\includeFile() /home/ubuntu/workspace/microposts/vendor/composer/ClassLoader.php:322
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '-', expecting ',' or ';' in /home/ubuntu/workspace/microposts/app/Micropost.php on line 9
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP Stack trace:
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:200
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:853
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/microposts/vendor/symfony/console/Command/Command.php:263
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  11. Illuminate\Foundation\Console\TinkerCommand->fire() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  12. Psy\Shell->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/TinkerCommand.php:54
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  13. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/Shell.php:273
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  14. Psy\Shell->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  15. Psy\ExecutionLoop\ForkingLoop->run() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/Shell.php:307
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  16. Psy\ExecutionLoop\Loop->run() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/ForkingLoop.php:79
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  17. Psy\ExecutionLoop\{closure}() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/Loop.php:135
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  18. eval() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/Loop.php:79
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  19. App\User->microposts() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/Loop.php(79) : eval()'d code:1
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  20. Illuminate\Database\Eloquent\Model->hasMany() /home/ubuntu/workspace/microposts/app/User.php:42
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  21. spl_autoload_call() /home/ubuntu/workspace/microposts/app/User.php:844
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  22. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/microposts/app/User.php:844
+[12-Jun-2017 19:07:10 Asia/Tokyo] PHP  23. Composer\Autoload\includeFile() /home/ubuntu/workspace/microposts/vendor/composer/ClassLoader.php:322
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '-', expecting ',' or ';' in /home/ubuntu/workspace/microposts/app/Micropost.php on line 9
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP Stack trace:
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:200
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:853
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/microposts/vendor/symfony/console/Command/Command.php:263
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  11. Illuminate\Foundation\Console\TinkerCommand->fire() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  12. Psy\Shell->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/TinkerCommand.php:54
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  13. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/Shell.php:273
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  14. Psy\Shell->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  15. Psy\ExecutionLoop\ForkingLoop->run() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/Shell.php:307
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  16. Psy\ExecutionLoop\Loop->run() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/ForkingLoop.php:79
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  17. Psy\ExecutionLoop\{closure}() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/Loop.php:135
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  18. eval() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/Loop.php:79
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  19. App\User->microposts() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/Loop.php(79) : eval()'d code:1
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  20. Illuminate\Database\Eloquent\Model->hasMany() /home/ubuntu/workspace/microposts/app/User.php:42
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  21. spl_autoload_call() /home/ubuntu/workspace/microposts/app/User.php:844
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  22. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/microposts/app/User.php:844
+[12-Jun-2017 19:08:01 Asia/Tokyo] PHP  23. Composer\Autoload\includeFile() /home/ubuntu/workspace/microposts/vendor/composer/ClassLoader.php:322
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '=', expecting '{' in /home/ubuntu/workspace/microposts/database/migrations/2017_06_12_183043_create_microposts_table--create=microposts.php on line 6
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP Stack trace:
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:200
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:853
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/microposts/vendor/symfony/console/Command/Command.php:263
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP  11. Illuminate\Database\Console\Migrations\MigrateCommand->fire() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP  12. Illuminate\Database\Migrations\Migrator->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Console/Migrations/MigrateCommand.php:74
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP  13. Illuminate\Database\Migrations\Migrator->requireFiles() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:83
+[12-Jun-2017 19:16:01 Asia/Tokyo] PHP  14. Illuminate\Filesystem\Filesystem->requireOnce() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Migrations/Migrator.php:270
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '-', expecting ',' or ';' in /home/ubuntu/workspace/microposts/app/Micropost.php on line 9
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP Stack trace:
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP   3. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:107
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP   4. Symfony\Component\Console\Application->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP   5. Symfony\Component\Console\Application->doRunCommand() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:200
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP   6. Illuminate\Console\Command->run() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:853
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP   7. Symfony\Component\Console\Command\Command->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:136
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP   8. Illuminate\Console\Command->execute() /home/ubuntu/workspace/microposts/vendor/symfony/console/Command/Command.php:263
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP   9. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Console/Command.php:150
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  10. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  11. Illuminate\Foundation\Console\TinkerCommand->fire() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  12. Psy\Shell->run() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/TinkerCommand.php:54
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  13. Symfony\Component\Console\Application->run() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/Shell.php:273
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  14. Psy\Shell->doRun() /home/ubuntu/workspace/microposts/vendor/symfony/console/Application.php:124
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  15. Psy\ExecutionLoop\ForkingLoop->run() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/Shell.php:307
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  16. Psy\ExecutionLoop\Loop->run() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/ForkingLoop.php:79
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  17. Psy\ExecutionLoop\{closure}() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/Loop.php:135
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  18. eval() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/Loop.php:79
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  19. Illuminate\Database\Eloquent\Model->__get() /home/ubuntu/workspace/microposts/vendor/psy/psysh/src/Psy/ExecutionLoop/Loop.php:1
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  20. Illuminate\Database\Eloquent\Model->getAttribute() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:3339
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  21. Illuminate\Database\Eloquent\Model->getRelationValue() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:2585
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  22. Illuminate\Database\Eloquent\Model->getRelationshipFromMethod() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:2643
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  23. App\User->microposts() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php:2670
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  24. Illuminate\Database\Eloquent\Model->hasMany() /home/ubuntu/workspace/microposts/app/User.php:42
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  25. spl_autoload_call() /home/ubuntu/workspace/microposts/app/User.php:844
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  26. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/microposts/app/User.php:844
+[12-Jun-2017 19:22:57 Asia/Tokyo] PHP  27. Composer\Autoload\includeFile() /home/ubuntu/workspace/microposts/vendor/composer/ClassLoader.php:322
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/microposts/app/Http/routes.php on line 15
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP Stack trace:
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->boot() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP   7. array_walk() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP   8. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP   9. Illuminate\Foundation\Application->bootProvider() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:717
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP  10. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:734
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP  11. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP  12. App\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP  13. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/microposts/app/Providers/RouteServiceProvider.php:29
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP  14. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:31
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP  15. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:72
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP  16. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP  17. App\Providers\RouteServiceProvider->map() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP  18. Illuminate\Routing\Router->group() /home/ubuntu/workspace/microposts/app/Providers/RouteServiceProvider.php:42
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP  19. call_user_func:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[12-Jun-2017 19:34:44 Asia/Tokyo] PHP  20. App\Providers\RouteServiceProvider->App\Providers\{closure}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/microposts/app/Http/routes.php on line 26
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP Stack trace:
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->boot() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP   7. array_walk() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP   8. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP   9. Illuminate\Foundation\Application->bootProvider() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:717
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP  10. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:734
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP  11. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP  12. App\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP  13. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/microposts/app/Providers/RouteServiceProvider.php:29
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP  14. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:31
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP  15. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:72
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP  16. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP  17. App\Providers\RouteServiceProvider->map() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP  18. Illuminate\Routing\Router->group() /home/ubuntu/workspace/microposts/app/Providers/RouteServiceProvider.php:42
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP  19. call_user_func:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[12-Jun-2017 20:39:56 Asia/Tokyo] PHP  20. App\Providers\RouteServiceProvider->App\Providers\{closure}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/microposts/app/Http/routes.php on line 26
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP Stack trace:
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/microposts/artisan:0
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP   2. Illuminate\Foundation\Console\Kernel->handle() /home/ubuntu/workspace/microposts/artisan:36
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP   3. Illuminate\Foundation\Console\Kernel->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:105
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP   4. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php:208
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP   5. Illuminate\Foundation\Bootstrap\BootProviders->bootstrap() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->boot() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/BootProviders.php:17
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP   7. array_walk() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP   8. Illuminate\Foundation\Application->Illuminate\Foundation\{closure}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:718
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP   9. Illuminate\Foundation\Application->bootProvider() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:717
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP  10. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:734
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP  11. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP  12. App\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP  13. Illuminate\Foundation\Support\Providers\RouteServiceProvider->boot() /home/ubuntu/workspace/microposts/app/Providers/RouteServiceProvider.php:29
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP  14. Illuminate\Foundation\Support\Providers\RouteServiceProvider->loadRoutes() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:31
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP  15. Illuminate\Container\Container->call() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php:72
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP  16. call_user_func_array:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP  17. App\Providers\RouteServiceProvider->map() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Container/Container.php:507
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP  18. Illuminate\Routing\Router->group() /home/ubuntu/workspace/microposts/app/Providers/RouteServiceProvider.php:42
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP  19. call_user_func:{/home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354
+[12-Jun-2017 20:40:31 Asia/Tokyo] PHP  20. App\Providers\RouteServiceProvider->App\Providers\{closure}() /home/ubuntu/workspace/microposts/vendor/laravel/framework/src/Illuminate/Routing/Router.php:354

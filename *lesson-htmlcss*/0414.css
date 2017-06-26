@@ -1,0 +1,13 @@
+nav ul li{
+    display:inline-block;
+}
+.long-content {
+  height: 3000px;
+  background-color: skyblue;
+}
+
+nav ul{
+    position:fixed;
+    top:10px;
+    left:50px;
+}
