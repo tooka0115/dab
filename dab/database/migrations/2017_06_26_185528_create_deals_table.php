@@ -20,8 +20,10 @@ class CreateDealsTable extends Migration
             $table->integer('category_id');
             $table->integer('item_id');
             $table->integer('amount');
-            $table->integer('user_id');
+            $table->integer('user_id')->unsigned()->index();
             $table->timestamps();
+            
+            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 

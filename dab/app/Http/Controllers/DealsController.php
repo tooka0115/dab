@@ -47,10 +47,14 @@ class DealsController extends Controller
      */
     public function store(Request $request)
     {
-        $deal = new Deal;
-        $deal->amount = $request->amount;
-        $deal->save();
-
+        $this->validate($request, [
+            'amount' => 'required|max:255',
+        ]);
+        
+        $request->user()->deals()->create([
+            'amount' => $request->amount,
+        ]);
+    
         return redirect('/');
     }
 
@@ -107,10 +111,12 @@ class DealsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
-    {
+   {
         $deal = Deal::find($id);
-        $deal->delete();
-
-        return redirect('/');
+        
+        if (\Auth::user()->id === $dealt->user_id) {
+            $deal->delete();
+        }
+        
+        return redirect()->back();
     }
-}
