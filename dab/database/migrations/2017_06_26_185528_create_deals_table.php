@@ -17,13 +17,11 @@ class CreateDealsTable extends Migration
             $table->integer('year');
             $table->integer('month');
             $table->string('attribute');
-            $table->integer('categories_id');
+            $table->integer('category_id');
             $table->integer('item_id');
             $table->integer('amount');
-            $table->integer('user_id')->unsigned()->index();
+            $table->integer('user_id');
             $table->timestamps();
-            
-            $table->foreign('user_id')->references('id')->on('users');
         });
     }
 
