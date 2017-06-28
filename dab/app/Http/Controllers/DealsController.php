@@ -53,6 +53,9 @@ class DealsController extends Controller
         
         $request->user()->deals()->create([
             'amount' => $request->amount,
+            'category_id' => $request->category_id,
+            'item_id' => $request->item_id,
+            'attribute'=> $request->attribute,
         ]);
     
         return redirect('/');
@@ -114,9 +117,10 @@ class DealsController extends Controller
    {
         $deal = Deal::find($id);
         
-        if (\Auth::user()->id === $dealt->user_id) {
+        if (\Auth::user()->id === $deal->user_id) {
             $deal->delete();
         }
         
         return redirect()->back();
     }
+}

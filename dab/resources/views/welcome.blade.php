@@ -5,12 +5,39 @@
         <?php $user = Auth::user(); ?>
         <div class="row">
             <aside class="col-xs-4">
-                {!! Form::open(['route' => 'deals.store']) !!}
-                    <div class="form-group">
-                        {!! Form::textarea('amount', old('amount'), ['class' => 'form-control', 'rows' => '1']) !!}
-                    </div>
-                    {!! Form::submit('登録', ['class' => 'btn btn-primary btn-block']) !!}
-                {!! Form::close() !!}
+                
+          {!! Form::open(['route' => 'deals.store']) !!}
+                <div class="form-group">
+                    {!! Form::label('amount', '金額') !!}
+                    {!! Form::text('amount', old('amount'), ['class' => 'form-control']) !!}
+                </div>
+
+                <div class="form-group">
+                    {!! Form::label('attribute', '収支') !!}
+                    {!! Form::select('attribute',['収入'=>'収入', '支出'=>'支出'], null,['class' => 'form-control']) !!}
+                </div>
+                
+                <div class="form-group">
+                    {!! Form::label('category_id', '大区分') !!}
+                    {!! Form::text('category_id', old('category_id'), ['class' => 'form-control']) !!}
+                </div>
+                
+                <div class="form-group">
+                    {!! Form::label('item_id', '小区分') !!}
+                    {!! Form::text('item_id', old('item_id'), ['class' => 'form-control']) !!}
+                </div>
+                
+                {!! Form::submit('登録', ['class' => 'btn btn-primary btn-block']) !!}
+            {!! Form::close() !!}
+            
+            <?php
+            print $sum;
+            print $esum;
+            print $sum-$esum;
+            ?>
+
+
+                
             </aside>
             <div class="col-xs-8">
                 @if (count($deals) > 0)

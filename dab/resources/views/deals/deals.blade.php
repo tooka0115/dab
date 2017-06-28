@@ -7,7 +7,7 @@
         <div class="media-body">
 
             <div>
-                <p>{!! nl2br(e($deal->amount)) !!}</p>
+                <p>{!! nl2br(e($deal->attribute)) !!}{!! nl2br(e($deal->category_id)) !!}{!! nl2br(e($deal->item_id)) !!}{!! nl2br(e($deal->amount)) !!}</p>
             </div>
             <div>
                 @if (Auth::user()->id == $deal->user_id)
