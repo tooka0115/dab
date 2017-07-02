@@ -2,9 +2,13 @@
 
 @section('content')
 
-    <h1>id = {{ $deal->id }} の取引詳細ページ</h1>
+    <h1>取引詳細ページ</h1>
     
-    <p>{{ $deal->amount }}</p>
+        @if (count($deal) > 0)
+
+    
+    
+    <p>{{ $deal->year}}年{{ $deal->month}}月{{ $deal->day}}日 {{ $deal->attribute}}　{{ $deal->category_id}}　{{ $deal->item_id}}　{{ $deal->amount }}円</p>
     
     {!! link_to_route('deals.edit', 'この取引編集', ['id' => $deal->id]) !!}
     
@@ -12,5 +16,6 @@
     {!! Form::submit('削除') !!}
     {!! Form::close() !!}
 
+    @endif
 
 @endsection

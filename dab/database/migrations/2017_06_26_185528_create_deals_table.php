@@ -16,6 +16,7 @@ class CreateDealsTable extends Migration
             $table->increments('id');
             $table->integer('year');
             $table->integer('month');
+            $table->integer('day');
             $table->string('attribute');
             $table->string('category_id');
             $table->string('item_id');

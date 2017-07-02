@@ -52,6 +52,9 @@ class DealsController extends Controller
         ]);
         
         $request->user()->deals()->create([
+            'year' => $request->year,
+            'month' => $request->month,
+            'day' => $request->day,
             'amount' => $request->amount,
             'category_id' => $request->category_id,
             'item_id' => $request->item_id,
@@ -123,4 +126,26 @@ class DealsController extends Controller
         
         return redirect()->back();
     }
+    public function look($year, $month)
+   {
+       $deals = Deal::where('year',$year)->where('month', $month)->get();;
+
+         return view('deals.look', [
+          'deals' => $deals,
+          'year' => $year,
+          'month'=> $month,
+      ]);
+   }
+   
+   public function report()
+   {
+        $deals = Deal::all();
+       
+        return view('deals.report', [
+          'deals' => $deals,
+      ]);
+   }
+   
+
+
 }

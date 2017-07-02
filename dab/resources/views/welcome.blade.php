@@ -4,46 +4,24 @@
     @if (Auth::check())
         <?php $user = Auth::user(); ?>
         <div class="row">
-            <aside class="col-xs-4">
-                
-          {!! Form::open(['route' => 'deals.store']) !!}
-                <div class="form-group">
-                    {!! Form::label('amount', '金額') !!}
-                    {!! Form::text('amount', old('amount'), ['class' => 'form-control']) !!}
-                </div>
 
-                <div class="form-group">
-                    {!! Form::label('attribute', '収支') !!}
-                    {!! Form::select('attribute',['収入'=>'収入', '支出'=>'支出'], null,['class' => 'form-control']) !!}
-                </div>
-                
-                <div class="form-group">
-                    {!! Form::label('category_id', '大区分') !!}
-                    {!! Form::text('category_id', old('category_id'), ['class' => 'form-control']) !!}
-                </div>
-                
-                <div class="form-group">
-                    {!! Form::label('item_id', '小区分') !!}
-                    {!! Form::text('item_id', old('item_id'), ['class' => 'form-control']) !!}
-                </div>
-                
-                {!! Form::submit('登録', ['class' => 'btn btn-primary btn-block']) !!}
-            {!! Form::close() !!}
-            
-            <?php
-            print $sum;
-            print $esum;
-            print $sum-$esum;
-            ?>
-
+            今月の収支<br>
+            <br>収入<?php print $sum; ?>▲支出<?php print $esum; ?>=収支<?php print $sum-$esum; ?>
+            <br>
+            {!! link_to_route('deals.look', '2017年5月', ['year' => 2017, 'month'=>5], ['class' => 'btn btn-lg btn-primary']) !!}
+            {!! link_to_route('deals.look', '2017年6月', ['year' => 2017, 'month'=>6], ['class' => 'btn btn-lg btn-primary']) !!}
+            {!! link_to_route('deals.look', '2017年7月', ['year' => 2017, 'month'=>7], ['class' => 'btn btn-lg btn-primary']) !!}
+            {!! link_to_route('deals.index', 'その他の月', null, ['class' => 'btn btn-lg btn-primary']) !!}  
+<br>
+<br>
+            {!! link_to_route('deals.report', '月別確認', null, ['class' => 'btn btn-lg btn-primary']) !!}
+<br>
+<br>
+            {!! link_to_route('deals.create', '新規取引登録', null, ['class' => 'btn btn-lg btn-primary']) !!}
 
                 
             </aside>
-            <div class="col-xs-8">
-                @if (count($deals) > 0)
-                    @include('deals.deals', ['deals' => $deals])
-                @endif
-            </div>
+
         </div>
     @else
         <div class="center jumbotron">
