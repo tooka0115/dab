@@ -2,6 +2,7 @@
 
 @section('content')
 
+
     <h1>一覧</h1>
     <ul class="media-list">
 @foreach ($deals as $deal)
