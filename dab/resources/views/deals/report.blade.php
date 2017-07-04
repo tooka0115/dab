@@ -628,198 +628,180 @@
 		<tr>
 			<td rowspan="6">その他経費</td>
 			<td>家具家電</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+ 			<td><?php print $furnitureelectronics201701; ?></td>
+			<td><?php print $furnitureelectronics201702; ?></td>
+			<td><?php print $furnitureelectronics201703; ?></td>
+			<td><?php print $furnitureelectronics201704; ?></td>
+			<td><?php print $furnitureelectronics201705; ?></td>
+			<td><?php print $furnitureelectronics201706; ?></td>
+			<td><?php print $furnitureelectronics201707; ?></td>
+			<td><?php print $furnitureelectronics201708; ?></td>
+			<td><?php print $furnitureelectronics201709; ?></td>
+			<td><?php print $furnitureelectronics201710; ?></td>
+			<td><?php print $furnitureelectronics201711; ?></td>
+			<td><?php print $furnitureelectronics201712; ?></td>
+			<td><?php print $furnitureelectronics2017total; ?></td>
 		</tr>
 		<tr>
 			<td>雑費</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+ 			<td><?php print $miscellaneousexpenses201701; ?></td>
+			<td><?php print $miscellaneousexpenses201702; ?></td>
+			<td><?php print $miscellaneousexpenses201703; ?></td>
+			<td><?php print $miscellaneousexpenses201704; ?></td>
+			<td><?php print $miscellaneousexpenses201705; ?></td>
+			<td><?php print $miscellaneousexpenses201706; ?></td>
+			<td><?php print $miscellaneousexpenses201707; ?></td>
+			<td><?php print $miscellaneousexpenses201708; ?></td>
+			<td><?php print $miscellaneousexpenses201709; ?></td>
+			<td><?php print $miscellaneousexpenses201710; ?></td>
+			<td><?php print $miscellaneousexpenses201711; ?></td>
+			<td><?php print $miscellaneousexpenses201712; ?></td>
+			<td><?php print $miscellaneousexpenses2017total; ?></td>
 		</tr>
 		<tr>
 			<td>仕事関係</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+ 			<td><?php print $workrelation201701; ?></td>
+			<td><?php print $workrelation201702; ?></td>
+			<td><?php print $workrelation201703; ?></td>
+			<td><?php print $workrelation201704; ?></td>
+			<td><?php print $workrelation201705; ?></td>
+			<td><?php print $workrelation201706; ?></td>
+			<td><?php print $workrelation201707; ?></td>
+			<td><?php print $workrelation201708; ?></td>
+			<td><?php print $workrelation201709; ?></td>
+			<td><?php print $workrelation201710; ?></td>
+			<td><?php print $workrelation201711; ?></td>
+			<td><?php print $workrelation201712; ?></td>
+			<td><?php print $workrelation2017total; ?></td>
 		</tr>
 		<tr>
 			<td>被服</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+ 			<td><?php print $clothing201701; ?></td>
+			<td><?php print $clothing201702; ?></td>
+			<td><?php print $clothing201703; ?></td>
+			<td><?php print $clothing201704; ?></td>
+			<td><?php print $clothing201705; ?></td>
+			<td><?php print $clothing201706; ?></td>
+			<td><?php print $clothing201707; ?></td>
+			<td><?php print $clothing201708; ?></td>
+			<td><?php print $clothing201709; ?></td>
+			<td><?php print $clothing201710; ?></td>
+			<td><?php print $clothing201711; ?></td>
+			<td><?php print $clothing201712; ?></td>
+			<td><?php print $clothing2017total; ?></td>
 		</tr>
 		<tr>
 			<td>理美容費</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+ 			<td><?php print $beautycare201701; ?></td>
+			<td><?php print $beautycare201702; ?></td>
+			<td><?php print $beautycare201703; ?></td>
+			<td><?php print $beautycare201704; ?></td>
+			<td><?php print $beautycare201705; ?></td>
+			<td><?php print $beautycare201706; ?></td>
+			<td><?php print $beautycare201707; ?></td>
+			<td><?php print $beautycare201708; ?></td>
+			<td><?php print $beautycare201709; ?></td>
+			<td><?php print $beautycare201710; ?></td>
+			<td><?php print $beautycare201711; ?></td>
+			<td><?php print $beautycare201712; ?></td>
+			<td><?php print $beautycare2017total; ?></td>
 		</tr>
 		<tr>
 			<td>借入金返済（無利子）</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+ 			<td><?php print $repayment201701; ?></td>
+			<td><?php print $repayment201702; ?></td>
+			<td><?php print $repayment201703; ?></td>
+			<td><?php print $repayment201704; ?></td>
+			<td><?php print $repayment201705; ?></td>
+			<td><?php print $repayment201706; ?></td>
+			<td><?php print $repayment201707; ?></td>
+			<td><?php print $repayment201708; ?></td>
+			<td><?php print $repayment201709; ?></td>
+			<td><?php print $repayment201710; ?></td>
+			<td><?php print $repayment201711; ?></td>
+			<td><?php print $repayment201712; ?></td>
+			<td><?php print $repayment2017total; ?></td>
 		</tr>
 		<tr>
 			<td colspan="2">その他経費　集計</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+ 			<td><?php print $other201701; ?></td>
+			<td><?php print $other201702; ?></td>
+			<td><?php print $other201703; ?></td>
+			<td><?php print $other201704; ?></td>
+			<td><?php print $other201705; ?></td>
+			<td><?php print $other201706; ?></td>
+			<td><?php print $other201707; ?></td>
+			<td><?php print $other201708; ?></td>
+			<td><?php print $other201709; ?></td>
+			<td><?php print $other201710; ?></td>
+			<td><?php print $other201711; ?></td>
+			<td><?php print $other201712; ?></td>
+			<td><?php print $other2017total; ?></td>
 		</tr>
 		<tr>
 			<td>年金</td>
 			<td>国民年金追納</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+ 			<td><?php print $pension201701; ?></td>
+			<td><?php print $pension201702; ?></td>
+			<td><?php print $pension201703; ?></td>
+			<td><?php print $pension201704; ?></td>
+			<td><?php print $pension201705; ?></td>
+			<td><?php print $pension201706; ?></td>
+			<td><?php print $pension201707; ?></td>
+			<td><?php print $pension201708; ?></td>
+			<td><?php print $pension201709; ?></td>
+			<td><?php print $pension201710; ?></td>
+			<td><?php print $pension201711; ?></td>
+			<td><?php print $pension201712; ?></td>
+			<td><?php print $pension2017total; ?></td>
 		</tr>
 		<tr>
 			<td colspan="2">年金　集計</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+ 			<td><?php print $nationalpension201701; ?></td>
+			<td><?php print $nationalpension201702; ?></td>
+			<td><?php print $nationalpension201703; ?></td>
+			<td><?php print $nationalpension201704; ?></td>
+			<td><?php print $nationalpension201705; ?></td>
+			<td><?php print $nationalpension201706; ?></td>
+			<td><?php print $nationalpension201707; ?></td>
+			<td><?php print $nationalpension201708; ?></td>
+			<td><?php print $nationalpension201709; ?></td>
+			<td><?php print $nationalpension201710; ?></td>
+			<td><?php print $nationalpension201711; ?></td>
+			<td><?php print $nationalpension201712; ?></td>
+			<td><?php print $nationalpension2017total; ?></td>
 		</tr>
 		<tr>
 			<td colspan="2">支出集計</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+ 			<td><?php print $spending201701; ?></td>
+			<td><?php print $spending201702; ?></td>
+			<td><?php print $spending201703; ?></td>
+			<td><?php print $spending201704; ?></td>
+			<td><?php print $spending201705; ?></td>
+			<td><?php print $spending201706; ?></td>
+			<td><?php print $spending201707; ?></td>
+			<td><?php print $spending201708; ?></td>
+			<td><?php print $spending201709; ?></td>
+			<td><?php print $spending201710; ?></td>
+			<td><?php print $spending201711; ?></td>
+			<td><?php print $spending201712; ?></td>
+			<td><?php print $spending2017total; ?></td>
 		</tr>
 		<tr>
 			<td colspan="3">収支</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+<td><?php print $income201701-$spending201701; ?></td>
+<td><?php print $income201702-$spending201702; ?></td>
+<td><?php print $income201703-$spending201703; ?></td>
+<td><?php print $income201704-$spending201704; ?></td>
+<td><?php print $income201705-$spending201705; ?></td>
+<td><?php print $income201706-$spending201706; ?></td>
+<td><?php print $income201707-$spending201707; ?></td>
+<td><?php print $income201708-$spending201708; ?></td>
+<td><?php print $income201709-$spending201709; ?></td>
+<td><?php print $income201710-$spending201710; ?></td>
+<td><?php print $income201711-$spending201711; ?></td>
+<td><?php print $income201712-$spending201712; ?></td>
+<td><?php print $incometotal-$spending2017total; ?></td>
 		</tr>
 	</tbody>
 </table>
